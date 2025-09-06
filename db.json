@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "1904",
+      "role": "admin",
+      "name": "Admin"
+    },
+    {
+      "id": "2",
+      "email": "gv@gmail.com",
+      "password": "1904",
+      "role": "giangvien",
+      "name": "Giảng viên"
+    },
+    {
+      "id": "3",
+      "email": "sv@gmail.com",
+      "password": "1904",
+      "role": "sinhvien",
+      "name": "Sinh viên"
+    },
+    {
+      "id": "4",
+      "email": "gv1@gmail.com",
+      "password": "1904",
+      "role": "giangvien",
+      "name": "Nguyễn Dũng"
+    },
+    {
+      "id": "5",
+      "name": "Nguyễn Thị Thùy Ngân",
+      "email": "sv1@gmail.com",
+      "password": "19042004",
+      "role": "sinhvien"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Nguyễn Thị Thùy Ngân",
+      "status": "Đang thực tập"
+    },
+    {
+      "id": "2",
+      "name": "Nguyễn Thị Huyền Trân",
+      "status": "Hoàn thành"
+    },
+    {
+      "id": "3",
+      "name": "Nguyễn Thị Tố Trinh",
+      "status": "Hoàn thành"
+    }
+  ],
+  "progresses": [
+    {
+      "id": "2037",
+      "studentId": "1",
+      "studentName": "Sinh viên",
+      "title": "Tuần 1",
+      "content": "Báo cáo tuần 1",
+      "file": "CPM.docx",
+      "status": "Chưa duyệt",
+      "date": "2025-08-24",
+      "student": {
+        "id": "1",
+        "name": "Nguyễn Thị Thùy Ngân",
+        "status": "Đang thực tập"
+      },
+      "comment": "",
+      "score": ""
+    },
+    {
+      "id": "4014",
+      "studentId": "2",
+      "studentName": "Sinh viên",
+      "title": "Tuần 2",
+      "content": "Báo cáo tuần 2",
+      "file": "CPM.docx",
+      "status": "Chưa duyệt",
+      "date": "2025-08-24",
+      "student": {
+        "id": "2",
+        "name": "Nguyễn Thị Huyền Trân",
+        "status": "Hoàn thành"
+      },
+      "comment": ""
+    },
+    {
+      "id": "4695",
+      "studentId": "3",
+      "studentName": "Sinh viên",
+      "title": "Báo cáo",
+      "content": "Tuần 1",
+      "file": "22t1020677-Nguyễn Thị Thùy Ngân.docx",
+      "status": "Chưa duyệt",
+      "date": "2025-08-24",
+      "student": {
+        "id": "3",
+        "name": "Nguyễn Thị Tố Trinh",
+        "status": "Hoàn thành"
+      },
+      "comment": ""
+    }
+  ],
+  "topics": [
+    {
+      "id": "t1",
+      "title": "Hệ thống quản lý thực tập",
+      "description": "Xây dựng ứng dụng web hỗ trợ quản lý tiến độ sinh viên",
+      "studentId": "1"
+    },
+    {
+      "id": "t2",
+      "title": "Phân tích dữ liệu",
+      "description": "Ứng dụng Python trong phân tích dữ liệu doanh nghiệp",
+      "studentId": "2"
+    },
+    {
+      "id": "t3",
+      "title": "Thương mại điện tử",
+      "description": "Phát triển website bán hàng trực tuyến",
+      "studentId": null
+    }
+  ]
+}
