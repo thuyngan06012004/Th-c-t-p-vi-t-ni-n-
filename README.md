@@ -1,2 +1,2 @@
 # Th-c-t-p-vi-t-ni-n-
-uản lý tiến độ thực tập sinh viên
+Quản lý tiến độ thực tập sinh viên
